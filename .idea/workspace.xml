@@ -23,9 +23,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TrainingApp" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,9 +38,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610131415600</updated>
-      <workItem from="1610131416669" duration="7000" />
+      <workItem from="1610131416669" duration="1127000" />
     </task>
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="powershell" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -47,5 +53,21 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610131422917" />
+    <state x="2294" y="270" width="1444" height="499" key="EnvironmentVariablesDialog" timestamp="1610132411205">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2294" y="270" width="1444" height="499" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610132411205" />
+    <state x="2660" y="261" key="FileChooserDialogImpl" timestamp="1610132505631">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610132505631" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1610132550689">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610132550689" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610132544846">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610132544846" />
   </component>
 </project>
