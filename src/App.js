@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Setup from './setupFiles/simple-usestate-example'
+import SimpleUseStateExapmle from './setupFiles/simple-usestate-example'
+import UseStateArray from './setupFiles/use-state-array-example'
 
 function App() {
   return (
-
       <div className = 'container'>
-          <Setup/>
-    </div>
+      <UseStateArray/>
+      </div>
   );
 }
 

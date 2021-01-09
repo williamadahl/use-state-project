@@ -27,6 +27,6 @@ export const UseStateExample = () => {
                 <h3>click me please</h3>
             </button>
         </React.Fragment>
-    )
+    );
 }
 export default UseStateExample
