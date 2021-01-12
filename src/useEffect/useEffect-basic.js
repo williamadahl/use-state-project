@@ -6,8 +6,10 @@ import React, {useState, useEffect} from 'react';
 const UseEffectBasic = () => {
     const [value, setValue] = useState(0);
     useEffect(() => {
-        console.log('call useEffect()');
-        document.title = `Clicked me ${value}`;
+        if(value > 3){
+            console.log('call useEffect()');
+            document.title = `Clicked me ${value}`;
+        }
     });
     return(
         <>
