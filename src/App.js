@@ -7,12 +7,12 @@ import UseEffectBasic from './useEffect/useEffect-basic'
 import UseEffectCleanup from './useEffect/useEffect-cleanup'
 import UseEffectFetchData from './useEffect/use-effect-fetch-users'
 import MultipleReturns from './conditionalRendering/multiple-returns'
-
+import ShortCircuit from './conditionalRendering/short-circuit-eval'
 
 function App() {
   return (
       <div className = 'container'>
-      <MultipleReturns />
+      <ShortCircuit />
       </div>
   );
 }
