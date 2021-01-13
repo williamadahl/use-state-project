@@ -8,11 +8,12 @@ import UseEffectCleanup from './useEffect/useEffect-cleanup'
 import UseEffectFetchData from './useEffect/use-effect-fetch-users'
 import MultipleReturns from './conditionalRendering/multiple-returns'
 import ShortCircuit from './conditionalRendering/short-circuit-eval'
+import ShowHide from './conditionalRendering/show-hide'
 
 function App() {
   return (
       <div className = 'container'>
-      <ShortCircuit />
+      <ShowHide />
       </div>
   );
 }
