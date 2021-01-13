@@ -6,11 +6,13 @@ import UseStateCounter from './setupFiles/use-state-counter-example'
 import UseEffectBasic from './useEffect/useEffect-basic'
 import UseEffectCleanup from './useEffect/useEffect-cleanup'
 import UseEffectFetchData from './useEffect/use-effect-fetch-users'
+import MultipleReturns from './conditionalRendering/multiple-returns'
+
 
 function App() {
   return (
       <div className = 'container'>
-      <UseEffectFetchData />
+      <MultipleReturns />
       </div>
   );
 }
