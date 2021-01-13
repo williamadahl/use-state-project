@@ -1,10 +1,16 @@
 import React, {useState, useEffect} from 'react';
 /*
+* SHORT CIRCUITING
+* --------------------------
 * Short circuiting is very useful for conditional rendering.
 * 'false' + || (whatever) -> whatever
 * 'true' + || (whatever) -> 'true'
 * 'false' + && (whatever) -> 'false'
 * 'true' + && (whatever) -> whatever
+*
+* TERNARY OPERATOR
+* --------------------------
+* 'evaluation' ? ( 'true') : ('false')
 * */
 
 
@@ -24,6 +30,13 @@ const ShortCircuit = () =>{
           <h1>Toggle example</h1>
           <button className = 'btn' onClick={() => setIsError(!isError)}> Toggle error </button>
           {isError && <h3>Error...</h3>}
+          {isError ? (
+              <p> there is an error...</p>
+          ): (
+              <div>
+                  <h3> there is no error </h3>
+              </div>
+          )}
       </>
     );
 
