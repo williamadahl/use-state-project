@@ -9,11 +9,13 @@ import UseEffectFetchData from './useEffect/use-effect-fetch-users'
 import MultipleReturns from './conditionalRendering/multiple-returns'
 import ShortCircuit from './conditionalRendering/short-circuit-eval'
 import ShowHide from './conditionalRendering/show-hide'
+import ControlledInputs from './inputs/controlled-inputs'
+
 
 function App() {
   return (
       <div className = 'container'>
-      <ShowHide />
+      <ControlledInputs />
       </div>
   );
 }
