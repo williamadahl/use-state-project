@@ -3,17 +3,22 @@ import React, {useState, useEffect} from 'react';
 *  This is a refactoring of controlled-inputs. A better way to deal with multiple inputs to form
 * */
 const MultipleInputs = () => {
-    // const [firstName, setFirstName] = useState('');
-    // const [email, setEmail] = useState('');
-    // const [age, setAge] = useState('');
     const [people, setPeople] = useState([]);
     const [person, setPerson] = useState({firstName:'', email: '', age: ''});
-
+    /**
+     * Amazing dynamic object property update! this way the objects values are kept intact while we update
+     * with name and value for some other fields.
+     * */
     const handleChange = (e) => {
         const name = e.target.name;
         const value = e.target.value;
         setPerson({...person, [name]:value})
     };
+    /**
+     * Again the same principle. If all fields are set we create a new person and keep the values and set
+     * a unique ID for maping. After that we can use setPeople and bring in both the old values '...people' while
+     * adding a new person. Dynamic ojbects are great!!!
+     * */
     const handleSubmit = (e) => {
         e.preventDefault();
         if(person.firstName && person.email && person.age){
