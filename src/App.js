@@ -10,12 +10,12 @@ import MultipleReturns from './conditionalRendering/multiple-returns'
 import ShortCircuit from './conditionalRendering/short-circuit-eval'
 import ShowHide from './conditionalRendering/show-hide'
 import ControlledInputs from './inputs/controlled-inputs'
-
+import MultipleInputs from './inputs/multiple-inputs'
 
 function App() {
   return (
       <div className = 'container'>
-      <ControlledInputs />
+      <MultipleInputs />
       </div>
   );
 }
