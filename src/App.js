@@ -1,9 +1,9 @@
 import './App.css';
-import UseRef from './useReducer/'
+import PropDrilling from './propDrilling/prop-drilling'
 function App() {
   return (
       <div className = 'container'>
-      <UseRef />
+      <PropDrilling />
       </div>
   );
 }
