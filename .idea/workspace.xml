@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610131415600</updated>
-      <workItem from="1610131416669" duration="53745000" />
+      <workItem from="1610131416669" duration="56478000" />
     </task>
     <servers />
   </component>
@@ -69,6 +69,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2625" y="344" key="#Notifications" timestamp="1611005227066">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2625" y="344" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611005227066" />
     <state x="2360" y="94" key="#Project_Structure" timestamp="1610131422917">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
