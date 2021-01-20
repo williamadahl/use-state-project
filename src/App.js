@@ -1,9 +1,9 @@
 import './App.css';
-import PropDrilling from './propDrilling/prop-drilling'
+import UseContext from './useContext/use-context'
 function App() {
   return (
       <div className = 'container'>
-      <PropDrilling />
+      <UseContext />
       </div>
   );
 }
