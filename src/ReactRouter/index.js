@@ -6,12 +6,14 @@ import Home from './Home';
 import About from './About';
 import People from './People';
 import Error from './Error';
+import Navbar from './Navbar';
 /*Navbar*/
 
 const ReactRouter = () => {
     return (
         <>
             <Router>
+                <Navbar/>
                 <Switch>
                 <Route exact path='/'>
                     <Home/>
