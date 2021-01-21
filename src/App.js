@@ -1,9 +1,9 @@
 import './App.css';
-import UseContext from './useContext/use-context'
+import Index from './propTypes/index'
 function App() {
   return (
       <div className = 'container'>
-      <UseContext />
+      <Index />
       </div>
   );
 }
