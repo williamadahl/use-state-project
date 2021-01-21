@@ -1,9 +1,9 @@
 import './App.css';
-import Index from './propTypes/index'
+import Setup from './ReactRouter'
 function App() {
   return (
       <div className = 'container'>
-      <Index />
+      <Setup/>
       </div>
   );
 }
