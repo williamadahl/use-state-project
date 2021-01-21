@@ -5,12 +5,14 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import People from './People';
+import Error from './Error';
 /*Navbar*/
 
 const ReactRouter = () => {
     return (
         <>
             <Router>
+                <Switch>
                 <Route exact path='/'>
                     <Home/>
                 </Route>
@@ -20,6 +22,10 @@ const ReactRouter = () => {
                 <Route path='/people'>
                     <People/>
                 </Route>
+                <Route path='*'>
+                    <Error/>
+                </Route>
+            </Switch>
             </Router>
         </>
 
