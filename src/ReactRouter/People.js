@@ -11,6 +11,9 @@ const People =() =>{
                 return(
                     <div key={person.id} className='item'>
                         <h4>{person.name}</h4>
+                        /** This is where the id in the url is set as the id of a person, which we can then again
+                        * use as a lookup against the data to display more informaition about the person
+                        */
                         <Link to={`/person/${person.id}`}> Learn more </Link>
                     </div>
                 );

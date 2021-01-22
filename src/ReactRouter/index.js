@@ -25,6 +25,7 @@ const ReactRouter = () => {
                 <Route path='/people'>
                     <People/>
                 </Route>
+                    /*Here we can se the route pathing in effect, and we can just set Person as a children component*/
                     <Route path='/person/:id' children={<Person/>}></Route>
                 <Route path='*'>
                     <Error/>
