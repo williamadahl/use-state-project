@@ -7,6 +7,7 @@ import About from './About';
 import People from './People';
 import Error from './Error';
 import Navbar from './Navbar';
+import Person from './Person';
 /*Navbar*/
 
 const ReactRouter = () => {
@@ -24,6 +25,7 @@ const ReactRouter = () => {
                 <Route path='/people'>
                     <People/>
                 </Route>
+                    <Route path='/person/:id' children={<Person/>}></Route>
                 <Route path='*'>
                     <Error/>
                 </Route>
