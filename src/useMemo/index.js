@@ -3,6 +3,19 @@ import {useFetch} from '../customHooks/useFetch';
 const url = 'https://course-api.com/javascript-store-products';
 
 /* Every time a prop or state changes, components re-render! */
+/* React.memo will look at the props and check for change, while useMemo checks the value*/
+
+const calculateMostExpensive = (data) => {
+    return (
+        data.reduce((total, item) => {
+            const price = item.fields.price;
+            if(price >= total){
+                total = price;
+            }
+            return total;
+        },0) /100
+    );
+};
 
 const UseMemo = () => {
     const {products} = useFetch(url);
@@ -13,11 +26,14 @@ const UseMemo = () => {
         setCart(cart+1);
     },[cart]);
 
+    const mostExpensiveItem = useMemo(() => calculateMostExpensive(products), [products]);
+
     return (
         <>
             <h2> Count : {count}</h2>
-            <h2 style={{marginTop:'3rem'}}>Cart : {cart}</h2>
             <button className='btn' onClick={() => setCount(count+1)}> Click me </button>
+            <h2 style={{marginTop:'3rem'}}>Cart : {cart}</h2>
+            <h2> Most expensive product : ${mostExpensiveItem}</h2>
             <BigList products={products} addToCart={addToCart}/>
         </>
     );
